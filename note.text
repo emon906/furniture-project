@@ -1,0 +1,1074 @@
+  <!-- header -->
+     <header class="mb-20">
+     <!-- Navbar -->
+<nav class="bg-[#f9f1e7]">
+  <div class="px-4 sm:px-8 lg:px-12">
+
+    <div class="flex min-h-20 items-center justify-between gap-4">
+
+      <!-- left -->
+      <div class="flex items-center gap-6 lg:gap-14">
+        <a href="#" class="text-2xl lg:text-3xl font-bold text-black">
+          Funiro.
+        </a>
+
+        <!-- desktop menu -->
+        <ul class="hidden lg:flex items-center gap-8">
+          <li>
+            <details class="relative">
+              <summary class="cursor-pointer list-none text-[14px] font-bold font-inter text-[#3A3A3A]">
+                Products <i class="fa-solid fa-chevron-down ml-1 text-[10px]"></i>
+              </summary>
+              <ul class="absolute left-0 top-8 z-50 w-36 bg-white p-2 shadow">
+                <li><a class="block px-3 py-2 text-sm">Submenu 1</a></li>
+                <li><a class="block px-3 py-2 text-sm">Submenu 2</a></li>
+              </ul>
+            </details>
+          </li>
+
+          <li>
+            <details class="relative">
+              <summary class="cursor-pointer list-none text-[14px] font-bold font-inter text-[#3A3A3A]">
+                Rooms <i class="fa-solid fa-chevron-down ml-1 text-[10px]"></i>
+              </summary>
+              <ul class="absolute left-0 top-8 z-50 w-36 bg-white p-2 shadow">
+                <li><a class="block px-3 py-2 text-sm">Submenu 1</a></li>
+                <li><a class="block px-3 py-2 text-sm">Submenu 2</a></li>
+              </ul>
+            </details>
+          </li>
+
+          <li>
+            <a class="cursor-pointer text-[14px] font-bold font-inter text-[#3A3A3A]">
+              Inspirations
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- desktop search -->
+      <div class="hidden lg:flex flex-1 justify-center px-8">
+        <div class="relative w-full max-w-[460px]">
+          <i class="fa-solid fa-magnifying-glass absolute left-4 top-1/2 -translate-y-1/2 text-[13px] text-black"></i>
+
+          <input
+            type="text"
+            placeholder="Search for minimalist chair"
+            class="h-11 w-full rounded bg-white pl-11 pr-4 text-[14px] outline-none border border-gray-100"
+          />
+        </div>
+      </div>
+
+      <!-- right -->
+      <div class="flex items-center gap-4 sm:gap-7">
+        <i class="hidden sm:block fa-regular fa-heart text-[20px] cursor-pointer"></i>
+        <i class="hidden sm:block fa-solid fa-cart-shopping text-[20px] cursor-pointer"></i>
+
+        <img
+          src="img/Ellipse 2.png"
+          class="h-10 w-10 lg:h-11 lg:w-11 rounded-full object-cover cursor-pointer"
+          alt="Profile"
+        />
+
+        <!-- mobile checkbox -->
+        <input id="menu-toggle" type="checkbox" class="peer hidden" />
+
+        <!-- 3 bar icon -->
+        <label for="menu-toggle" class="cursor-pointer text-[24px] lg:hidden">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+      </div>
+    </div>
+
+    <!-- mobile menu, no JS -->
+    <div class="hidden pb-5 peer-checked:block lg:hidden">
+      <div class="relative mb-4 w-full">
+        <i class="fa-solid fa-magnifying-glass absolute left-4 top-1/2 -translate-y-1/2 text-[13px] text-black"></i>
+
+        <input
+          type="text"
+          placeholder="Search for minimalist chair"
+          class="h-11 w-full rounded bg-white pl-11 pr-4 text-[14px] outline-none border border-gray-100"
+        />
+      </div>
+
+      <ul class="grid gap-3 rounded bg-white p-4 shadow">
+        <li>
+          <details>
+            <summary class="cursor-pointer text-[14px] font-bold font-inter text-[#3A3A3A]">
+              Products
+            </summary>
+            <ul class="mt-2 pl-4">
+              <li><a class="block py-2 text-sm">Submenu 1</a></li>
+              <li><a class="block py-2 text-sm">Submenu 2</a></li>
+            </ul>
+          </details>
+        </li>
+
+        <li>
+          <details>
+            <summary class="cursor-pointer text-[14px] font-bold font-inter text-[#3A3A3A]">
+              Rooms
+            </summary>
+            <ul class="mt-2 pl-4">
+              <li><a class="block py-2 text-sm">Submenu 1</a></li>
+              <li><a class="block py-2 text-sm">Submenu 2</a></li>
+            </ul>
+          </details>
+        </li>
+
+        <li>
+          <a class="cursor-pointer text-[14px] font-bold font-inter text-[#3A3A3A]">
+            Inspirations
+          </a>
+        </li>
+
+        <li class="flex gap-5 pt-2 sm:hidden">
+          <i class="fa-regular fa-heart text-[20px] cursor-pointer"></i>
+          <i class="fa-solid fa-cart-shopping text-[20px] cursor-pointer"></i>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</nav>
+   <!-- hero  -->
+  <div class="relative mx-auto h-[402px] max-w-[1040px] overflow-hidden">
+
+  <!-- left small background image -->
+  <img
+    src="img/furniture2.png"
+    alt="Left sofa"
+    class="absolute bottom-0 left-0 h-[345px] w-[229px] object-cover object-left"
+  />
+
+  <!-- gap between left and main image -->
+  <div class="absolute bottom-0 left-[229px] h-[345px] w-[20px] bg-white"></div>
+
+  <!-- main big background image -->
+  <img
+    src="img/furniture.png"
+    alt="Main sofa"
+    class="absolute bottom-0 left-[249px] h-[345px] w-[586px] object-cover object-center"
+  />
+  <!-- left blue border decoration -->
+  <div class="absolute left-0 top-[71px] h-[139px] w-[5px] border-2 border-[#0b86ad]"></div>
+  <div class="absolute left-[43px] top-[71px] h-[139px] w-[15px] border-[5px] border-[#0b86ad] bg-white/30 shadow-lg"></div>
+
+  <!-- dots -->
+  <div class="absolute left-[388px] top-[21px] flex items-center gap-[13px]">
+    <button class="flex h-[16px] w-[16px] items-center justify-center rounded-full border border-[#e89f71]">
+      <span class="h-[7px] w-[7px] rounded-full bg-[#e89f71]"></span>
+    </button>
+    <button class="h-[7px] w-[7px] rounded-full bg-[#d8d8d8]"></button>
+    <button class="h-[7px] w-[7px] rounded-full bg-[#d8d8d8]"></button>
+    <button class="h-[7px] w-[7px] rounded-full bg-[#d8d8d8]"></button>
+  </div>
+
+  <!-- arrows -->
+  <div class="absolute right-[62px] top-[14px] flex gap-[8px]">
+    <a href="#slide4" class="btn btn-circle bg-[#F6DDCC] text-[#E9A378]">❮</a>
+    <a href="#slide2" class="btn btn-circle bg-[#E89F71] text-white">❯</a>
+  </div>
+
+  <!-- main text card -->
+  <div class="absolute left-[58px] top-[7px] z-20 h-[332px] w-[309px] bg-white/95 px-[37px] pt-[39px] shadow-[0_18px_45px_rgba(0,0,0,0.08)]">
+    <h1 class="text-[30px] font-bold font-Inter leading-[1.22] text-[#3a3a3a]">
+      High-Quality Furniture Just For You
+    </h1>
+
+    <p class="mt-[14px] text-[16px] font-Inter leading-[20px] text-[#898989]">
+      Our furniture is made from selected and best quality materials that are suitable for your dream home
+    </p>
+
+    <a
+      href="#"
+      class="mt-[10px] flex h-[49px] w-full items-center justify-center bg-[#e89f71] text-[12px] font-semibold text-white"
+    >
+      Shop Now
+    </a>
+  </div>
+
+  <!-- product card -->
+  <div class="absolute bottom-[25px] left-[624px] z-30 h-[91px] w-[184px] bg-white/90 px-[18px] py-[14px] shadow-[0_10px_30px_rgba(0,0,0,0.12)]">
+    <h2 class="text-[20px] font-semibold leading-none text-[#3a3a3a]">
+      Bohauss
+    </h2>
+
+    <p class="mt-[8px] text-[10px] text-[#898989]">
+      Luxury big sofa 2-seat
+    </p>
+
+    <div class="mt-[10px] flex items-center justify-between">
+      <p class="text-[13px] font-semibold text-[#3a3a3a]">
+        Rp 17.000.000
+      </p>
+      <a href="#" class="text-[17px] leading-none text-[#222]">→</a>
+    </div>
+  </div>
+
+</div>
+
+   <!-- hero  -->
+     </header>
+    <!-- header -->
+     <!-- section -->
+      <section>
+        <!-- feature -->
+       <div class="flex justify-center mb-20">
+         <!-- flex -->
+           <div class="grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-20">
+          <!-- vector -->
+           <div class="flex align-items gap-2 items-center">
+            <div>
+              <img src="img/Vector.png" class="w-[28px]" alt="Vector">
+            </div>
+            <div>
+              <h3 class="text-[12px] font-semibold font-inter text-[#3A3A3A]">High Quality</h3>
+              <p class="text-[#898989] text-[12px] font-inter font-normal">crafted from top materials</p>
+            </div>
+          </div>
+          <!-- vector -->
+          <!-- vector2 -->
+           <div class="flex align-items gap-2 items-center">
+            <img src="img/Vector (1).png" class="w-[28px]" alt="Vector1">
+            <div>
+              <h3 class="text-[12px] font-semibold font-inter text-[#3A3A3A]">Warrany Protection</h3>
+              <p class="text-[#898989] text-[12px] font-inter font-normal">Over 2 years</p>
+            </div>
+           </div>
+          <!-- vector2 -->
+          <!-- vector3 -->
+           <div class="flex align-items gap-2 items-center">
+            <img src="img/Vector (2).png" class="w-[28px]" alt="vector2">
+            <div>
+              <h3 class="text-[12px] font-semibold font-inter text-[#3A3A3A]">Free Shipping</h3>
+              <p class="text-[#898989] text-[12px] font-inter font-normal">Order over 150 $</p>
+            </div>
+           </div>
+          <!-- vector3 -->
+          <!-- vector4 -->
+           <div class="flex align-items gap-2 items-center">
+            <img src="img/Vector (3).png" class="w-[28px]" alt="vector3">
+            <div>
+              <h3 class="text-[12px] font-semibold font-inter text-[#3A3A3A]">24 / 7 Support</h3>
+              <p class="text-[#898989] text-[12px] font-inter font-normal">Dedicated support</p>
+            </div>
+           </div>
+          <!-- vector4 -->
+         </div>
+         <!-- flex -->
+       </div>
+        <!-- feature -->
+         <!-- Our product -->
+          <div class="flex justify-center items-center py-6">
+            <h1 class="text-3xl text-[#3A3A3A] font-bold ">
+              Our Products
+            </h1>
+          </div>
+         <!-- Our product -->
+          <!-- flex -->
+           <div class="flex justify-center">
+            <!-- grid -->
+             <div class="grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-7">
+   <!-- card -->
+              <div class="group relative  overflow-hidden bg-[#f4f5f7]">
+  <!-- image area -->
+  <div class="relative overflow-hidden bg-white">
+    <img
+      src="img/image 1.png"
+      alt="Syltherine chair"
+      class="h-full w-full object-cover"
+    />
+
+    <!-- discount badge -->
+    <div class="absolute right-[30px] top-[28px] flex h-[57px] w-[57px] items-center justify-center rounded-full bg-[#e97171] text-[16px] font-medium text-white">
+      -30%
+    </div>
+  </div>
+
+  <!-- content area -->
+  <div class="px-[19px] pb-[36px] pt-[19px]">
+    <h2 class="text-[26px] font-semibold leading-none text-[#3a3a3a]">
+      Syltherine
+    </h2>
+
+    <p class="mt-[18px] text-[18px] leading-none text-[#898989]">
+      Stylish cafe chair
+    </p>
+
+    <div class="mt-[20px] flex items-center gap-[20px]">
+      <p class="text-[23px] font-semibold leading-none text-[#3a3a3a]">
+        Rp 2.500.000
+      </p>
+
+      <p class="text-[17px] leading-none text-[#b0b0b0] line-through">
+        Rp 3.500.000
+      </p>
+    </div>
+  </div>
+
+  <!-- hover overlay -->
+  <div class="absolute inset-0 flex flex-col items-center justify-center bg-[#3a3a3a]/75 opacity-0 transition duration-300 group-hover:opacity-100">
+    <button class="h-[48px] w-[202px] bg-white text-[16px] font-semibold text-[#e89f71]">
+      Add to cart
+    </button>
+
+    <div class="mt-[24px] flex items-center gap-[28px] text-white">
+      <button class="flex items-center gap-[6px] text-[16px] font-semibold">
+        <span class="text-[22px] leading-none">↗</span>
+        Share
+      </button>
+
+      <button class="flex items-center gap-[6px] text-[16px] font-semibold">
+        <span class="text-[24px] leading-none">♡</span>
+        Like
+      </button>
+    </div>
+  </div>
+</div>
+              <!-- card -->
+              <!-- card -->
+              <div class="group relative  overflow-hidden bg-[#f4f5f7]">
+  <!-- image area -->
+  <div class="relative overflow-hidden bg-white">
+    <img
+      src="img/image 2.png"
+      alt="Leviosa"
+      class="w-full h-full object-cover"
+    />
+  </div>
+
+  <!-- content area -->
+  <div class="px-[19px] pb-[36px] pt-[19px]">
+    <h2 class="text-[26px] font-semibold leading-none text-[#3a3a3a]">
+      Leviosa
+    </h2>
+
+    <p class="mt-[18px] text-[18px] leading-none text-[#898989]">
+      Stylish cafe chair
+    </p>
+
+    <div class="mt-[20px] flex items-center gap-[20px]">
+      <p class="text-[23px] font-semibold leading-none text-[#3a3a3a]">
+        Rp 2.500.000
+      </p>
+    </div>
+  </div>
+
+  <!-- hover overlay -->
+  <div class="absolute inset-0 flex flex-col items-center justify-center bg-[#3a3a3a]/75 opacity-0 transition duration-300 group-hover:opacity-100">
+    <button class="h-[48px] w-[202px] bg-white text-[16px] font-semibold text-[#e89f71]">
+      Add to cart
+    </button>
+
+    <div class="mt-[24px] flex items-center gap-[28px] text-white">
+      <button class="flex items-center gap-[6px] text-[16px] font-semibold">
+        <span class="text-[22px] leading-none">↗</span>
+        Share
+      </button>
+
+      <button class="flex items-center gap-[6px] text-[16px] font-semibold">
+        <span class="text-[24px] leading-none">♡</span>
+        Like
+      </button>
+    </div>
+  </div>
+</div>
+              <!-- card -->
+              <!-- card -->
+              <div class="group relative  overflow-hidden bg-[#f4f5f7]">
+  <!-- image area -->
+  <div class="relative overflow-hidden bg-white">
+    <img
+      src="img/image 3.png"
+      alt="Lolito"
+      class="w-full h-full object-cover"
+    />
+
+    <!-- discount badge -->
+    <div class="absolute right-[30px] top-[28px] flex h-[57px] w-[57px] items-center justify-center rounded-full bg-[#e97171] text-[16px] font-medium text-white">
+      -50%
+    </div>
+  </div>
+
+  <!-- content area -->
+  <div class="px-[19px] pb-[36px] pt-[19px]">
+    <h2 class="text-[26px] font-semibold leading-none text-[#3a3a3a]">
+      Lolito
+    </h2>
+
+    <p class="mt-[18px] text-[18px] leading-none text-[#898989]">
+      Luxury big sofa
+    </p>
+
+    <div class="mt-[20px] flex items-center gap-[20px]">
+      <p class="text-[23px] font-semibold leading-none text-[#3a3a3a]">
+        Rp 7.000.000
+      </p>
+
+      <p class="text-[17px] leading-none text-[#b0b0b0] line-through">
+        Rp 14.000.000
+      </p>
+    </div>
+  </div>
+
+  <!-- hover overlay -->
+  <div class="absolute inset-0 flex flex-col items-center justify-center bg-[#3a3a3a]/75 opacity-0 transition duration-300 group-hover:opacity-100">
+    <button class="h-[48px] w-[202px] bg-white text-[16px] font-semibold text-[#e89f71]">
+      Add to cart
+    </button>
+
+    <div class="mt-[24px] flex items-center gap-[28px] text-white">
+      <button class="flex items-center gap-[6px] text-[16px] font-semibold">
+        <span class="text-[22px] leading-none">↗</span>
+        Share
+      </button>
+
+      <button class="flex items-center gap-[6px] text-[16px] font-semibold">
+        <span class="text-[24px] leading-none">♡</span>
+        Like
+      </button>
+    </div>
+  </div>
+</div>
+              <!-- card -->
+             <!-- card -->
+              <div class="group relative  overflow-hidden bg-[#f4f5f7]">
+  <!-- image area -->
+  <div class="relative overflow-hidden bg-white">
+    <img
+      src="img/image 4.png"
+      alt="Syltherine chair"
+      class="w-full h-full object-cover"
+    />
+
+    <!-- discount badge -->
+    <div class="absolute right-[30px] top-[28px] flex h-[57px] w-[57px] items-center justify-center rounded-full bg-[#2EC1AC] text-[16px] font-medium text-white">
+      New
+    </div>
+  </div>
+
+  <!-- content area -->
+  <div class="px-[19px] pb-[36px] pt-[19px]">
+    <h2 class="text-[26px] font-semibold leading-none text-[#3a3a3a]">
+      Respira
+    </h2>
+
+    <p class="mt-[18px] text-[18px] leading-none text-[#898989]">
+      Minimalist fan
+    </p>
+
+    <div class="mt-[20px] flex items-center gap-[20px]">
+      <p class="text-[23px] font-semibold leading-none text-[#3a3a3a]">
+       Rp 500.000
+      </p>
+
+      <p class="text-[17px] leading-none text-[#b0b0b0] line-through">
+        Rp 14.000.000
+      </p>
+    </div>
+  </div>
+
+  <!-- hover overlay -->
+  <div class="absolute inset-0 flex flex-col items-center justify-center bg-[#3a3a3a]/75 opacity-0 transition duration-300 group-hover:opacity-100">
+    <button class="h-[48px] w-[202px] bg-white text-[16px] font-semibold text-[#e89f71]">
+      Add to cart
+    </button>
+
+    <div class="mt-[24px] flex items-center gap-[28px] text-white">
+      <button class="flex items-center gap-[6px] text-[16px] font-semibold">
+        <span class="text-[22px] leading-none">↗</span>
+        Share
+      </button>
+
+      <button class="flex items-center gap-[6px] text-[16px] font-semibold">
+        <span class="text-[24px] leading-none">♡</span>
+        Like
+      </button>
+    </div>
+  </div>
+</div>
+              <!-- card -->
+            <!-- card -->
+              <div class="group relative  overflow-hidden bg-[#f4f5f7]">
+  <!-- image area -->
+  <div class="relative overflow-hidden bg-white">
+    <img
+      src="img/image 9.png"
+      alt="Grifo"
+      class="w-full h-full object-cover"
+    />
+  </div>
+
+  <!-- content area -->
+  <div class="px-[19px] pb-[36px] pt-[19px]">
+    <h2 class="text-[26px] font-semibold leading-none text-[#3a3a3a]">
+      Grifo
+    </h2>
+
+    <p class="mt-[18px] text-[18px] leading-none text-[#898989]">
+      Night lamp
+    </p>
+
+    <div class="mt-[20px] flex items-center gap-[20px]">
+      <p class="text-[23px] font-semibold leading-none text-[#3a3a3a]">
+        Rp 1.500.000
+      </p>
+
+      <p class="text-[17px] leading-none text-[#b0b0b0] line-through">
+       Rp 3.500.000
+      </p>
+    </div>
+  </div>
+
+  <!-- hover overlay -->
+  <div class="absolute inset-0 flex flex-col items-center justify-center bg-[#3a3a3a]/75 opacity-0 transition duration-300 group-hover:opacity-100">
+    <button class="h-[48px] w-[202px] bg-white text-[16px] font-semibold text-[#e89f71]">
+      Add to cart
+    </button>
+
+    <div class="mt-[24px] flex items-center gap-[28px] text-white">
+      <button class="flex items-center gap-[6px] text-[16px] font-semibold">
+        <span class="text-[22px] leading-none">↗</span>
+        Share
+      </button>
+
+      <button class="flex items-center gap-[6px] text-[16px] font-semibold">
+        <span class="text-[24px] leading-none">♡</span>
+        Like
+      </button>
+    </div>
+  </div>
+</div>
+              <!-- card -->
+              <!-- card -->
+              <div class="group relative  overflow-hidden bg-[#f4f5f7]">
+  <!-- image area -->
+  <div class="relative overflow-hidden bg-white">
+    <img
+      src="img/image 6.png"
+      alt="Muggo"
+      class="w-full h-full object-cover"
+    />
+
+    <!-- discount badge -->
+    <div class="absolute right-[30px] top-[28px] flex h-[57px] w-[57px] items-center justify-center rounded-full  bg-[#2EC1AC] text-[16px] font-medium text-white">
+      New
+    </div>
+  </div>
+
+  <!-- content area -->
+  <div class="px-[19px] pb-[36px] pt-[19px]">
+    <h2 class="text-[26px] font-semibold leading-none text-[#3a3a3a]">
+     Muggo
+    </h2>
+
+    <p class="mt-[18px] text-[18px] leading-none text-[#898989]">
+      Small mug
+    </p>
+
+    <div class="mt-[20px] flex items-center gap-[20px]">
+      <p class="text-[23px] font-semibold leading-none text-[#3a3a3a]">
+        Rp 150.000
+      </p>
+
+      <p class="text-[17px] leading-none text-[#b0b0b0] line-through">
+        Rp 3.500.000
+      </p>
+    </div>
+  </div>
+
+  <!-- hover overlay -->
+  <div class="absolute inset-0 flex flex-col items-center justify-center bg-[#3a3a3a]/75 opacity-0 transition duration-300 group-hover:opacity-100">
+    <button class="h-[48px] w-[202px] bg-white text-[16px] font-semibold text-[#e89f71]">
+      Add to cart
+    </button>
+
+    <div class="mt-[24px] flex items-center gap-[28px] text-white">
+      <button class="flex items-center gap-[6px] text-[16px] font-semibold">
+        <span class="text-[22px] leading-none">↗</span>
+        Share
+      </button>
+
+      <button class="flex items-center gap-[6px] text-[16px] font-semibold">
+        <span class="text-[24px] leading-none">♡</span>
+        Like
+      </button>
+    </div>
+  </div>
+</div>
+              <!-- card -->
+             <!-- card -->
+              <div class="group relative  overflow-hidden bg-[#f4f5f7]">
+  <!-- image area -->
+  <div class="relative overflow-hidden bg-white">
+    <img
+      src="img/image 7 (1).png"
+      alt="Pingky"
+      class="w-full h-full object-cover"
+    />
+
+    <!-- discount badge -->
+    <div class="absolute right-[30px] top-[28px] flex h-[57px] w-[57px] items-center justify-center rounded-full bg-[#e97171] text-[16px] font-medium text-white">
+      -50%
+    </div>
+  </div>
+
+  <!-- content area -->
+  <div class="px-[19px] pb-[36px] pt-[19px]">
+    <h2 class="text-[26px] font-semibold leading-none text-[#3a3a3a]">
+      Pingky
+    </h2>
+
+    <p class="mt-[18px] text-[18px] leading-none text-[#898989]">
+      Cute bed set
+    </p>
+
+    <div class="mt-[20px] flex items-center gap-[20px]">
+      <p class="text-[23px] font-semibold leading-none text-[#3a3a3a]">
+        Rp 7.000.000
+      </p>
+
+      <p class="text-[17px] leading-none text-[#b0b0b0] line-through">
+        Rp 14.000.000
+      </p>
+    </div>
+  </div>
+
+  <!-- hover overlay -->
+  <div class="absolute inset-0 flex flex-col items-center justify-center bg-[#3a3a3a]/75 opacity-0 transition duration-300 group-hover:opacity-100">
+    <button class="h-[48px] w-[202px] bg-white text-[16px] font-semibold text-[#e89f71]">
+      Add to cart
+    </button>
+
+    <div class="mt-[24px] flex items-center gap-[28px] text-white">
+      <button class="flex items-center gap-[6px] text-[16px] font-semibold">
+        <span class="text-[22px] leading-none">↗</span>
+        Share
+      </button>
+
+      <button class="flex items-center gap-[6px] text-[16px] font-semibold">
+        <span class="text-[24px] leading-none">♡</span>
+        Like
+      </button>
+    </div>
+  </div>
+</div>
+              <!-- card -->
+               <!-- card -->
+              <div class="group relative  overflow-hidden bg-[#f4f5f7]">
+  <!-- image area -->
+  <div class="relative overflow-hidden bg-white">
+    <img
+      src="img/image 9.png"
+      alt="Potty"
+      class="w-full h-full object-cover"
+    />
+
+    <!-- discount badge -->
+    <div class="absolute right-[30px] top-[28px] flex h-[57px] w-[57px] items-center justify-center rounded-full bg-[#2EC1AC] text-[16px] font-medium text-white">
+      New
+    </div>
+  </div>
+
+  <!-- content area -->
+  <div class="px-[19px] pb-[36px] pt-[19px]">
+    <h2 class="text-[26px] font-semibold leading-none text-[#3a3a3a]">
+      Potty
+    </h2>
+
+    <p class="mt-[18px] text-[18px] leading-none text-[#898989]">
+      Minimalist flower pot
+    </p>
+
+    <div class="mt-[20px] flex items-center gap-[20px]">
+      <p class="text-[23px] font-semibold leading-none text-[#3a3a3a]">
+        Rp 500.000
+      </p>
+
+      <p class="text-[17px] leading-none text-[#b0b0b0] line-through">
+        Rp 14.000.000
+      </p>
+    </div>
+  </div>
+
+  <!-- hover overlay -->
+  <div class="absolute inset-0 flex flex-col items-center justify-center bg-[#3a3a3a]/75 opacity-0 transition duration-300 group-hover:opacity-100">
+    <button class="h-[48px] w-[202px] bg-white text-[16px] font-semibold text-[#e89f71]">
+      Add to cart
+    </button>
+
+    <div class="mt-[24px] flex items-center gap-[28px] text-white">
+      <button class="flex items-center gap-[6px] text-[16px] font-semibold">
+        <span class="text-[22px] leading-none">↗</span>
+        Share
+      </button>
+
+      <button class="flex items-center gap-[6px] text-[16px] font-semibold">
+        <span class="text-[24px] leading-none">♡</span>
+        Like
+      </button>
+    </div>
+  </div>
+</div>
+              <!-- card -->
+             </div>
+            <!-- grid -->
+           </div>
+          <!-- flex -->
+           <!-- show more -->
+      <div class="flex justify-center my-[44px]">
+                    <button class="text-[#E89F71] px-[82px] py-[12px]">
+              Show more
+            </button>
+      </div>
+           <!-- show more -->
+           <!-- beautiful room -->
+<div class="bg-[#FCF8F3] flex flex-col lg:flex-row justify-center gap-[35px] lg:gap-[70px] px-5 sm:px-10 lg:px-[100px] py-[44px]">
+
+  <!-- beautiful context -->
+  <div class="flex items-center justify-center lg:w-[32%]">
+    <div class="w-full text-center lg:text-left">
+      <h1 class="text-[32px] sm:text-[38px] lg:text-[42px] text-[#3A3A3A] font-bold font-inter leading-tight">
+        50+ Beautiful rooms <br class="hidden sm:block">
+        inspiration
+      </h1>
+
+      <p class="mt-3 text-[#616161] text-[15px] sm:text-[16px] font-inter font-normal leading-[26px]">
+        Our designer already made a lot of beautiful <br class="hidden sm:block">
+        prototipe of rooms that inspire you
+      </p>
+
+      <button class="px-[40px] py-[12px] text-[#FEFBFA] bg-[#E89F71] text-[16px] font-inter mt-[24px]">
+        Explore More
+      </button>
+    </div>
+  </div>
+  <!-- beautiful context -->
+
+  <!-- image area -->
+  <div class="flex flex-col md:flex-row items-start justify-center gap-[28px] lg:gap-[70px]">
+
+    <!-- inner peace -->
+    <div class="relative w-full max-w-[404px] overflow-visible">
+      <img
+        src="img/Rectangle 24.png"
+        alt="Bedroom"
+        class="h-[500px] sm:h-[582px] w-full object-cover"
+      />
+
+      <!-- bottom text box -->
+      <div class="absolute bottom-[24px] sm:bottom-[34px] left-[20px] sm:left-[31px] flex">
+        <div class="bg-[#F4F3F2]/95 py-[24px] sm:py-[32px] px-[28px] sm:px-[50px]">
+          <div class="flex items-center gap-4">
+            <p class="text-[#616161] font-normal font-inter">
+              01
+            </p>
+
+            <div class="h-[1px] w-[28px] bg-[#616161] rounded-md"></div>
+
+            <p class="text-[#616161] font-normal font-inter">
+              Bed Room
+            </p>
+          </div>
+
+          <h3 class="mt-2 text-[#3A3A3A] text-[24px] sm:text-[28px] font-semibold font-inter">
+            Inner Peace
+          </h3>
+        </div>
+
+        <!-- orange arrow -->
+        <button class="absolute bottom-0 right-[-40px] flex h-[40px] w-[40px] items-center justify-center bg-[#e89f71] text-[20px] leading-none text-white">
+          <i class="fa-solid fa-arrow-right"></i>
+        </button>
+      </div>
+    </div>
+    <!-- inner peace -->
+
+    <!-- right img -->
+    <div class="w-full max-w-[372px]">
+      <div class="relative inline-block w-full">
+        <img
+          src="img/Rectangle 25.png"
+          alt="Rectangle 25"
+          class="h-[430px] sm:h-[486px] w-full object-cover"
+        />
+
+        <!-- right arrow -->
+        <button class="absolute right-[-22px] sm:right-[-28px] top-1/2 flex h-[58px] w-[58px] -translate-y-1/2 items-center justify-center rounded-full bg-white shadow-lg">
+          <span class="text-[22px] font-light leading-none text-[#e89f71]">
+            <i class="fa-solid fa-angle-right"></i>
+          </span>
+        </button>
+      </div>
+
+      <!-- dots -->
+      <div class="flex items-center justify-center md:justify-start mt-7 gap-5">
+        <button class="flex h-[32px] w-[32px] items-center justify-center rounded-full border border-[#e89f71]">
+          <span class="h-[14px] w-[14px] rounded-full bg-[#e89f71]"></span>
+        </button>
+
+        <button class="h-[14px] w-[14px] rounded-full bg-[#d8d8d8]"></button>
+        <button class="h-[14px] w-[14px] rounded-full bg-[#d8d8d8]"></button>
+        <button class="h-[14px] w-[14px] rounded-full bg-[#d8d8d8]"></button>
+      </div>
+    </div>
+    <!-- right img -->
+
+  </div>
+  <!-- image area -->
+
+</div>
+<!-- beautiful room -->
+            <!-- tip and tricks context -->
+             <div class="flex justify-center items-center py-6">
+            <h1 class="text-3xl text-[#3A3A3A] font-bold ">
+              Tips & Tricks
+            </h1>
+          </div>
+            <!-- tip and tricks context -->
+             <div class="carousel w-full">
+  <div id="slide1" class="carousel-item relative w-full">
+   <!-- tip and tricks card -->
+              <div class="justify-center px-16 pb-8">
+                <!-- flex -->
+                 <!-- grid -->
+<div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6">
+
+  <!-- card 1 -->
+  <div class="bg-white hover:shadow-lg duration-300">
+    <div class="overflow-hidden">
+      <img
+        src="img/Rectangle 32 (2).png"
+        alt="Workspace"
+        class="w-full object-cover"
+      />
+    </div>
+
+    <div class="px-[14px] pb-[16px] pt-[13px]">
+      <h3 class="text-[20px] font-semibold leading-[24px] text-[#3a3a3a]">
+        How to create a living <br />
+        room to love
+      </h3>
+
+      <p class="mt-[7px] text-[16px] text-[#898989]">
+        20 jan 2020
+      </p>
+    </div>
+  </div>
+
+  <!-- card 2 -->
+  <div class="bg-white hover:shadow-lg duration-300">
+    <div class="overflow-hidden">
+      <img
+        src="img/Rectangle 32.png"
+        alt="Workspace"
+        class="w-full object-cover"
+      />
+    </div>
+
+    <div class="px-[14px] pb-[16px] pt-[13px]">
+      <h3 class="text-[20px] font-semibold text-[#3a3a3a]">
+        Solution for clean look working <br>
+space
+      </h3>
+
+      <p class="mt-[7px] text-[16px] text-[#898989]">
+        10 jan 2020
+      </p>
+    </div>
+  </div>
+
+  <!-- card 3 -->
+  <div class="bg-white hover:shadow-lg duration-300">
+    <div class="overflow-hidden">
+      <img
+        src="img/Rectangle 32 (1).png"
+        alt="Workspace"
+        class="w-full object-cover"
+      />
+    </div>
+
+    <div class="px-[14px] pb-[16px] pt-[13px]">
+      <h3 class="text-[20px] font-semibold text-[#3a3a3a]">
+        Make your cooking activity
+more fun with good setup
+      </h3>
+
+      <p class="mt-[7px] text-[16px] text-[#898989]">
+        20 jan 2020
+      </p>
+    </div>
+  </div>
+
+</div>
+                <!-- flex -->
+              </div>
+             <!-- tip and tricks card -->
+    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+      <a href="#slide4" class="btn btn-circle text-[#E89F71]">❮</a>
+      <a href="#slide2" class="btn btn-circle text-[#E89F71]">❯</a>
+    </div>
+  </div>
+</div>
+              <!-- tip and trick fota -->
+               <div class="flex justify-center items-center mt-7 mb-10 gap-5">
+    <button class="h-[14px] w-[14px] rounded-full bg-[#d8d8d8]"></button>
+
+   
+    <!-- active dot -->
+    <button class="flex h-[32px] w-[32px] items-center justify-center rounded-full border border-[#e89f71]">
+      <span class="h-[14px] w-[14px] rounded-full bg-[#e89f71]"></span>
+    </button>
+     <!-- normal dots -->
+    <button class="h-[14px] w-[14px] rounded-full bg-[#d8d8d8]"></button>
+    <button class="h-[14px] w-[14px] rounded-full bg-[#d8d8d8]"></button>
+  </div>
+              <!-- tip and trick fota -->
+               <!-- furniture -->
+                   <!-- title -->
+  <div class="mb-8 text-center">
+    <p class="text-[13px] font-semibold text-[#616161] md:text-[16px]">
+      Share your setup with
+    </p>
+    <h2 class="mt-2 text-[26px] font-bold leading-none text-[#3a3a3a] md:text-[34px]">
+      #FuniroFurniture
+    </h2>
+  </div>
+
+  <!-- mobile/tablet grid -->
+  <div class="mx-auto grid max-w-[900px] grid-cols-2 gap-3 px-4 md:grid-cols-3 lg:hidden">
+    <img src="img/Rectangle 1.png" class="h-[180px] w-full object-cover" alt="Rectangle1">
+    <img src="img/Rectangle 2.png" class="h-[180px] w-full object-cover" alt="Rectangle2">
+    <img src="img/Rectangle 3.png" class="h-[180px] w-full object-cover" alt="Rectangle3">
+    <img src="img/Rectangle 4.png" class="h-[180px] w-full object-cover" alt="Rectangle4">
+    <img src="img/Rectangle 5.png" class="h-[180px] w-full object-cover" alt="Rectangle5">
+    <img src="img/Rectangle 6.png" class="h-[180px] w-full object-cover" alt="Rectangle6">
+    <img src="img/Rectangle 7.png" class="h-[180px] w-full object-cover" alt="Rectangle7">
+    <img src="img/Rectangle 8.png" class="h-[180px] w-full object-cover" alt="Rectangle8">
+    <img src="img/Rectangle 9.png" class="col-span-2 h-[180px] w-full object-cover md:col-span-1" alt="">
+  </div>
+
+  <!-- desktop collage -->
+  <div class="relative mx-auto hidden h-[440px] max-w-[900px] lg:block">
+    <img
+      src="img/Rectangle 1.png"
+      alt="Rectangle1"
+      class="absolute left-0 top-0 h-[240px] w-[124px] object-cover"
+    />
+
+    <img
+      src="img/Rectangle 3.png"
+      alt="Rectangle3"
+      class="absolute left-[134px] top-[44px] h-[195px] w-[283px] object-cover"
+    />
+
+    <img
+      src="img/Rectangle 2.png"
+      alt="Rectangle 2"
+      class="absolute left-0 top-[250px] h-[170px] w-[191px] object-cover"
+    />
+
+    <img
+      src="img/Rectangle 4.png"
+      alt="Rectangle 4"
+      class="absolute left-[201px] top-[250px] h-[151px] w-[216px] object-cover"
+    />
+
+    <img
+      src="img/Rectangle 5.png"
+      alt="Rectangle 5"
+      class="absolute left-[427px] top-[99px] h-[245px] w-[184px] object-cover"
+    />
+
+    <img
+      src="img/Rectangle 7.png"
+      alt="Rectangle 7"
+      class="absolute left-[621px] top-[64px] h-[219px] w-[181px] object-cover"
+    />
+
+    <img
+      src="img/Rectangle 9.png"
+      alt="Rectangle 7"
+      class="absolute right-0 top-[10px] h-[272px] w-[89px] object-cover"
+    />
+
+    <img
+      src="img/Rectangle 6.png"
+      alt="Rectangle 6"
+      class="absolute left-[621px] top-[294px] h-[151px] w-[110px] object-cover"
+    />
+
+    <img
+      src="img/Rectangle 8.png"
+      alt="Rectangle 8"
+      class="absolute left-[741px] top-[294px] h-[121px] w-[159px] object-cover"
+    />
+  </div>
+               <!-- furniture -->
+                <!-- footer -->
+ <footer class="mt-12 px-6">
+            <!-- footer1 -->
+             <hr class="w-full">
+             <footer class="footer text-base-content py-10 xl:px-20 lg:px-6 md:px-3 px-3 border-t border-b">
+              
+  <aside>
+   <a href="#" class="text-3xl font-bold text-black">
+            Funiro.
+          </a>
+    <p class="text-[#7F7F7F] text-base font-normal mb-[16px] font-Inter cursor-pointer">
+      Worldwide furniture store since <br> 2020. We sell over 1000+ branded <br> products on our website
+    </p>
+    <ul>
+      <li class="text-[#7F7F7F] text-base font-normal mb-[16px] font-Inter"><i class="fa-solid fa-location-dot mr-[8px]"></i>Sawojajar Malang, Indonesia</li>
+      <li class="text-[#7F7F7F] text-base font-normal mb-[16px] font-Inter"><i class="fa-solid fa-phone mr-[8px]"></i>+6289 456 3455</li>
+      <li class="text-[#7F7F7F] text-base font-normal mb-2 font-Inter">www.funiro.com</li>
+    </ul>
+  </aside>
+  <nav>
+    <h6 class="text-black text-[26px] mb-4 font-Inter font-bold">Menu</h6>
+    <a class="text-[#7F7F7F] text-base font-normal mb-2 font-Inter cursor-pointer">Products</a>
+    <a class="text-[#7F7F7F] text-base font-normal mb-2 font-Inter cursor-pointer">Rooms</a>
+    <a class="text-[#7F7F7F] text-base font-normal mb-2 font-Inter cursor-pointer">Inspirations</a>
+    <a class="text-[#7F7F7F] text-base font-normal mb-2 font-Inter cursor-pointer">About Us</a>
+    <a class="text-[#7F7F7F] text-base font-normal font-Inter cursor-pointer">Terms & Policy</a>
+  </nav>
+  <nav>
+    <h6 class="text-black text-[26px] mb-4 font-Inter font-bold">Account</h6>
+    <a class="text-[#7F7F7F] text-base font-normal mb-2 font-Inter cursor-pointer">My Account</a>
+    <a class="text-[#7F7F7F] text-base font-normal mb-2 font-Inter cursor-pointer">Checkout</a>
+    <a class="text-[#7F7F7F] text-base font-normal mb-2 font-Inter cursor-pointer">My Cart</a>
+    <a class="text-[#7F7F7F] text-base font-normal mb-2 font-Inter cursor-pointer">My catalog</a>
+  </nav>
+  <nav>
+    <h6 class="text-black text-[26px] mb-4 font-Inter font-bold">Stay Connected</h6>
+    <a class="text-[#7F7F7F] text-base font-normal mb-2 font-Inter cursor-pointer">Facebook</a>
+    <a class="text-[#7F7F7F] text-base font-normal mb-2 font-Inter cursor-pointer">Instagram</a>
+    <a class="text-[#7F7F7F] text-base font-normal font-Inter cursor-pointer">Twitter</a>
+  </nav>
+  <nav>
+  <h6 class="text-black text-[26px] font-Inter font-bold">Stay Updated</h6>
+   <nav>
+    <fieldset class="form-control mb-8">
+      <label class="label">
+      </label>
+      <div class="join">
+        <input
+          type="text"
+          placeholder="Enter your email..."
+          class="input join-item md:w-[220px] bg-[#F2F2F2]" />
+        <button class="bg-[#E89F71] px-5 text-white join-item">
+        <i class="fa-regular fa-paper-plane"></i>
+        </button>
+      </div>
+    </fieldset>
+  </nav>
+  </nav>
+</footer>
+            <!-- footer1 -->
+          </footer>
+                <!-- footer -->
+
+      </section>
+     <!-- section -->
