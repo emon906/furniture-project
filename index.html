@@ -39,29 +39,15 @@
         <!-- desktop menu -->
         <ul class="hidden lg:flex items-center gap-8">
           <li>
-            <details class="relative">
-              <summary class="cursor-pointer list-none text-[14px] font-bold font-inter text-[#3A3A3A]">
-                Products <i class="fa-solid fa-chevron-down ml-1 text-[10px]"></i>
-              </summary>
-              <ul class="absolute left-0 top-8 z-50 w-36 bg-white p-2 shadow">
-                <li><a class="block px-3 py-2 text-sm">Submenu 1</a></li>
-                <li><a class="block px-3 py-2 text-sm">Submenu 2</a></li>
-              </ul>
-            </details>
+            <a class="cursor-pointer text-[14px] font-bold font-inter text-[#3A3A3A]">
+              Products 
+            </a>
           </li>
-
           <li>
-            <details class="relative">
-              <summary class="cursor-pointer list-none text-[14px] font-bold font-inter text-[#3A3A3A]">
-                Rooms <i class="fa-solid fa-chevron-down ml-1 text-[10px]"></i>
-              </summary>
-              <ul class="absolute left-0 top-8 z-50 w-36 bg-white p-2 shadow">
-                <li><a class="block px-3 py-2 text-sm">Submenu 1</a></li>
-                <li><a class="block px-3 py-2 text-sm">Submenu 2</a></li>
-              </ul>
-            </details>
+            <a class="cursor-pointer text-[14px] font-bold font-inter text-[#3A3A3A]">
+              Rooms 
+            </a>
           </li>
-
           <li>
             <a class="cursor-pointer text-[14px] font-bold font-inter text-[#3A3A3A]">
               Inspirations
@@ -117,35 +103,21 @@
       </div>
 
       <ul class="grid gap-3 rounded bg-white p-4 shadow">
-        <li>
-          <details>
-            <summary class="cursor-pointer text-[14px] font-bold font-inter text-[#3A3A3A]">
-              Products
-            </summary>
-            <ul class="mt-2 pl-4">
-              <li><a class="block py-2 text-sm">Submenu 1</a></li>
-              <li><a class="block py-2 text-sm">Submenu 2</a></li>
-            </ul>
-          </details>
-        </li>
-
-        <li>
-          <details>
-            <summary class="cursor-pointer text-[14px] font-bold font-inter text-[#3A3A3A]">
-              Rooms
-            </summary>
-            <ul class="mt-2 pl-4">
-              <li><a class="block py-2 text-sm">Submenu 1</a></li>
-              <li><a class="block py-2 text-sm">Submenu 2</a></li>
-            </ul>
-          </details>
-        </li>
-
-        <li>
-          <a class="cursor-pointer text-[14px] font-bold font-inter text-[#3A3A3A]">
-            Inspirations
-          </a>
-        </li>
+         <li>
+            <a class="cursor-pointer text-[14px] font-bold font-inter text-[#3A3A3A]">
+              Products 
+            </a>
+          </li>
+          <li>
+            <a class="cursor-pointer text-[14px] font-bold font-inter text-[#3A3A3A]">
+              Rooms 
+            </a>
+          </li>
+          <li>
+            <a class="cursor-pointer text-[14px] font-bold font-inter text-[#3A3A3A]">
+              Inspirations
+            </a>
+          </li>
 
         <li class="flex gap-5 pt-2 sm:hidden">
           <i class="fa-regular fa-heart text-[20px] cursor-pointer"></i>
@@ -157,82 +129,101 @@
   </div>
 </nav>
    <!-- hero  -->
-  <div class="relative mx-auto h-[402px] max-w-[1040px] overflow-hidden">
+ <div class="relative mx-auto h-[520px] max-w-[1040px] overflow-hidden">
 
-  <!-- left small background image -->
-  <img
-    src="img/furniture2.png"
-    alt="Left sofa"
-    class="absolute bottom-0 left-0 h-[345px] w-[229px] object-cover object-left"
-  />
+    <!-- radios -->
+    <input id="slide-1" type="radio" name="hero-slide" class="peer/s1 hidden" checked>
+    <input id="slide-2" type="radio" name="hero-slide" class="peer/s2 hidden">
+    <input id="slide-3" type="radio" name="hero-slide" class="peer/s3 hidden">
+    <input id="slide-4" type="radio" name="hero-slide" class="peer/s4 hidden">
 
-  <!-- gap between left and main image -->
-  <div class="absolute bottom-0 left-[229px] h-[345px] w-[20px] bg-white"></div>
-
-  <!-- main big background image -->
-  <img
-    src="img/furniture.png"
-    alt="Main sofa"
-    class="absolute bottom-0 left-[249px] h-[345px] w-[586px] object-cover object-center"
-  />
-  <!-- left blue border decoration -->
-  <div class="absolute left-0 top-[71px] h-[139px] w-[5px] border-2 border-[#0b86ad]"></div>
-  <div class="absolute left-[43px] top-[71px] h-[139px] w-[15px] border-[5px] border-[#0b86ad] bg-white/30 shadow-lg"></div>
-
-  <!-- dots -->
-  <div class="absolute left-[388px] top-[21px] flex items-center gap-[13px]">
-    <button class="flex h-[16px] w-[16px] items-center justify-center rounded-full border border-[#e89f71]">
-      <span class="h-[7px] w-[7px] rounded-full bg-[#e89f71]"></span>
-    </button>
-    <button class="h-[7px] w-[7px] rounded-full bg-[#d8d8d8]"></button>
-    <button class="h-[7px] w-[7px] rounded-full bg-[#d8d8d8]"></button>
-    <button class="h-[7px] w-[7px] rounded-full bg-[#d8d8d8]"></button>
-  </div>
-
-  <!-- arrows -->
-  <div class="absolute right-[62px] top-[14px] flex gap-[8px]">
-    <a href="#slide4" class="btn btn-circle bg-[#F6DDCC] text-[#E9A378]">❮</a>
-    <a href="#slide2" class="btn btn-circle bg-[#E89F71] text-white">❯</a>
-  </div>
-
-  <!-- main text card -->
-  <div class="absolute left-[58px] top-[7px] z-20 h-[332px] w-[309px] bg-white/95 px-[37px] pt-[39px] shadow-[0_18px_45px_rgba(0,0,0,0.08)]">
-    <h1 class="text-[30px] font-bold font-Inter leading-[1.22] text-[#3a3a3a]">
-      High-Quality Furniture Just For You
-    </h1>
-
-    <p class="mt-[14px] text-[16px] font-Inter leading-[20px] text-[#898989]">
-      Our furniture is made from selected and best quality materials that are suitable for your dream home
-    </p>
-
-    <a
-      href="#"
-      class="mt-[10px] flex h-[49px] w-full items-center justify-center bg-[#e89f71] text-[12px] font-semibold text-white"
-    >
-      Shop Now
-    </a>
-  </div>
-
-  <!-- product card -->
-  <div class="absolute bottom-[25px] left-[624px] z-30 h-[91px] w-[184px] bg-white/90 px-[18px] py-[14px] shadow-[0_10px_30px_rgba(0,0,0,0.12)]">
-    <h2 class="text-[20px] font-semibold leading-none text-[#3a3a3a]">
-      Bohauss
-    </h2>
-
-    <p class="mt-[8px] text-[10px] text-[#898989]">
-      Luxury big sofa 2-seat
-    </p>
-
-    <div class="mt-[10px] flex items-center justify-between">
-      <p class="text-[13px] font-semibold text-[#3a3a3a]">
-        Rp 17.000.000
-      </p>
-      <a href="#" class="text-[17px] leading-none text-[#222]">→</a>
+    <!-- slide 1 -->
+    <div class="absolute inset-0 opacity-100 transition duration-500 peer-checked/s2:opacity-0 peer-checked/s3:opacity-0 peer-checked/s4:opacity-0">
+      <img src="img/furniture2.png" class="absolute bottom-0 left-0 h-[432px] w-[29%] object-cover object-left" alt="">
+      <div class="absolute bottom-0 left-[29%] h-[432px] w-[24px] bg-white"></div>
+      <img src="img/furniture.png" class="absolute bottom-0 left-[calc(29%+24px)] h-[432px] w-[calc(71%-24px)] object-cover object-center" alt="">
     </div>
+
+    <!-- slide 2 -->
+    <div class="absolute inset-0 opacity-0 transition duration-500 peer-checked/s2:opacity-100">
+      <img src="img/furniture3.png" class="absolute bottom-0 left-0 h-[432px] w-[29%] object-cover object-left" alt="">
+      <div class="absolute bottom-0 left-[29%] h-[432px] w-[24px] bg-white"></div>
+      <img src="img/furniture4.png" class="absolute bottom-0 left-[calc(29%+24px)] h-[432px] w-[calc(71%-24px)] object-cover object-center" alt="">
+    </div>
+
+    <!-- slide 3 -->
+    <div class="absolute inset-0 opacity-0 transition duration-500 peer-checked/s3:opacity-100">
+      <img src="img/furniture5.png" class="absolute bottom-0 left-0 h-[432px] w-[29%] object-cover object-left" alt="">
+      <div class="absolute bottom-0 left-[29%] h-[432px] w-[24px] bg-white"></div>
+      <img src="img/furniture6.png" class="absolute bottom-0 left-[calc(29%+24px)] h-[432px] w-[calc(71%-24px)] object-cover object-center" alt="">
+    </div>
+
+    <!-- slide 4 -->
+    <div class="absolute inset-0 opacity-0 transition duration-500 peer-checked/s4:opacity-100">
+      <img src="img/furniture7.png" class="absolute bottom-0 left-0 h-[432px] w-[29%] object-cover object-left" alt="">
+      <div class="absolute bottom-0 left-[29%] h-[432px] w-[24px] bg-white"></div>
+      <img src="img/furniture7.png" class="absolute bottom-0 left-[calc(29%+24px)] h-[432px] w-[calc(71%-24px)] object-cover object-center" alt="">
+    </div>
+
+    <!-- dots -->
+    <div class="absolute left-[485px] top-[24px] z-40 flex items-center gap-[13px]">
+      <label for="slide-1" class="flex h-[18px] w-[18px] cursor-pointer items-center justify-center rounded-full border border-[#e89f71]">
+        <span class="h-[8px] w-[8px] rounded-full bg-[#e89f71]"></span>
+      </label>
+
+      <label for="slide-2" class="h-[8px] w-[8px] cursor-pointer rounded-full bg-[#d8d8d8]"></label>
+      <label for="slide-3" class="h-[8px] w-[8px] cursor-pointer rounded-full bg-[#d8d8d8]"></label>
+      <label for="slide-4" class="h-[8px] w-[8px] cursor-pointer rounded-full bg-[#d8d8d8]"></label>
+    </div>
+
+    <!-- arrow buttons, no javascript -->
+    <div class="absolute right-[62px] top-[16px] z-50 flex gap-[10px]">
+
+      <!-- when slide 1 active -->
+      <label for="slide-4" class="hidden h-[58px] w-[58px] cursor-pointer items-center justify-center rounded-full bg-[#F6DDCC] text-[30px] text-[#E9A378] shadow-md peer-checked/s1:flex">‹</label>
+      <label for="slide-2" class="hidden h-[58px] w-[58px] cursor-pointer items-center justify-center rounded-full bg-[#E89F71] text-[30px] text-white shadow-md peer-checked/s1:flex">›</label>
+
+      <!-- when slide 2 active -->
+      <label for="slide-1" class="hidden h-[58px] w-[58px] cursor-pointer items-center justify-center rounded-full bg-[#F6DDCC] text-[30px] text-[#E9A378] shadow-md peer-checked/s2:flex">‹</label>
+      <label for="slide-3" class="hidden h-[58px] w-[58px] cursor-pointer items-center justify-center rounded-full bg-[#E89F71] text-[30px] text-white shadow-md peer-checked/s2:flex">›</label>
+
+      <!-- when slide 3 active -->
+      <label for="slide-2" class="hidden h-[58px] w-[58px] cursor-pointer items-center justify-center rounded-full bg-[#F6DDCC] text-[30px] text-[#E9A378] shadow-md peer-checked/s3:flex">‹</label>
+      <label for="slide-4" class="hidden h-[58px] w-[58px] cursor-pointer items-center justify-center rounded-full bg-[#E89F71] text-[30px] text-white shadow-md peer-checked/s3:flex">›</label>
+
+      <!-- when slide 4 active -->
+      <label for="slide-3" class="hidden h-[58px] w-[58px] cursor-pointer items-center justify-center rounded-full bg-[#F6DDCC] text-[30px] text-[#E9A378] shadow-md peer-checked/s4:flex">‹</label>
+      <label for="slide-1" class="hidden h-[58px] w-[58px] cursor-pointer items-center justify-center rounded-full bg-[#E89F71] text-[30px] text-white shadow-md peer-checked/s4:flex">›</label>
+
+    </div>
+
+    <!-- text card fixed -->
+    <div class="absolute md:left-[73px] left-[-40px]  top-[7px] z-30 h-[414px] w-[386px] bg-white/95 px-[46px] pt-[52px] shadow-[0_18px_45px_rgba(0,0,0,0.08)]">
+      <h1 class="lg:text-[42px] md:text-[36px] text-[24px] font-bold leading-[1.22] text-[#3a3a3a]">
+        High-Quality Furniture Just For You
+      </h1>
+
+      <p class="mt-[24px] text-[16px] leading-[24px] text-[#898989]">
+        Our furniture is made from selected and best quality materials that are suitable for your dream home
+      </p>
+
+      <a href="#" class="mt-[18px] flex lg:py-4 md:py-4 py-4 rounded-md items-center justify-center bg-[#e89f71] text-[16px] font-semibold text-white">
+        Shop Now
+      </a>
+    </div>
+
+    <!-- product card fixed -->
+    <div class="absolute bottom-[31px] right-[31px] z-30 w-[230px] bg-white/90 px-[20px] py-[18px] shadow-[0_10px_30px_rgba(0,0,0,0.12)]">
+      <h2 class="text-[20px] font-semibold leading-none text-[#3a3a3a]">Bohauss</h2>
+      <p class="mt-[10px] text-[12px] text-[#898989]">Luxury big sofa 2-seat</p>
+
+      <div class="mt-[14px] flex items-center justify-between">
+        <p class="text-[16px] font-semibold text-[#3a3a3a]">Rp 17.000.000</p>
+        <a href="#" class="text-[20px] leading-none text-[#222]">→</a>
+      </div>
+    </div>
+
   </div>
-
-</div>
-
    <!-- hero  -->
      </header>
     <!-- header -->
@@ -1031,70 +1022,109 @@ more fun with good setup
     />
   </div>
                <!-- furniture -->
-                <!-- footer -->
- <footer class="mt-12 px-6">
-            <!-- footer1 -->
-             <hr class="w-full">
-             <footer class="footer text-base-content py-10 xl:px-20 lg:px-6 md:px-3 px-3 border-t border-b">
-              
-  <aside>
-   <a href="#" class=" lg:text-3xl text-[20px] font-bold text-black">
-            Funiro.
-          </a>
-    <p class="text-[#7F7F7F] text-base font-normal mb-[16px] font-Inter cursor-pointer">
-      Worldwide furniture store since <br> 2020. We sell over 1000+ branded <br> products on our website
-    </p>
-    <ul>
-      <li class="text-[#7F7F7F] text-base font-normal mb-[16px] font-Inter"><i class="fa-solid fa-location-dot mr-[8px]"></i>Sawojajar Malang, Indonesia</li>
-      <li class="text-[#7F7F7F] text-base font-normal mb-[16px] font-Inter"><i class="fa-solid fa-phone mr-[8px]"></i>+6289 456 3455</li>
-      <li class="text-[#7F7F7F] text-base font-normal mb-2 font-Inter">www.funiro.com</li>
-    </ul>
-  </aside>
-  <nav>
-    <h6 class="text-black lg:text-[26px] text-[20px] mb-4 font-Inter font-bold">Menu</h6>
-    <a class="text-[#7F7F7F] text-base font-normal mb-2 font-Inter cursor-pointer">Products</a>
-    <a class="text-[#7F7F7F] text-base font-normal mb-2 font-Inter cursor-pointer">Rooms</a>
-    <a class="text-[#7F7F7F] text-base font-normal mb-2 font-Inter cursor-pointer">Inspirations</a>
-    <a class="text-[#7F7F7F] text-base font-normal mb-2 font-Inter cursor-pointer">About Us</a>
-    <a class="text-[#7F7F7F] text-base font-normal font-Inter cursor-pointer">Terms & Policy</a>
-  </nav>
-  <nav>
-    <h6 class="text-black lg:text-[26px] text-[20px] mb-4 font-Inter font-bold">Account</h6>
-    <a class="text-[#7F7F7F] text-base font-normal mb-2 font-Inter cursor-pointer">My Account</a>
-    <a class="text-[#7F7F7F] text-base font-normal mb-2 font-Inter cursor-pointer">Checkout</a>
-    <a class="text-[#7F7F7F] text-base font-normal mb-2 font-Inter cursor-pointer">My Cart</a>
-    <a class="text-[#7F7F7F] text-base font-normal mb-2 font-Inter cursor-pointer">My catalog</a>
-  </nav>
-  <nav>
-    <h6 class="text-black lg:text-[26px] text-[20px] mb-4 font-Inter font-bold">Stay Connected</h6>
-    <a class="text-[#7F7F7F] text-base font-normal mb-2 font-Inter cursor-pointer">Facebook</a>
-    <a class="text-[#7F7F7F] text-base font-normal mb-2 font-Inter cursor-pointer">Instagram</a>
-    <a class="text-[#7F7F7F] text-base font-normal font-Inter cursor-pointer">Twitter</a>
-  </nav>
-  <nav>
-  <h6 class="text-black lg:text-[26px] text-[20px] font-Inter font-bold">Stay Updated</h6>
-   <nav>
-    <fieldset class="form-control mb-8">
-      <label class="label">
-      </label>
-      <div class="join">
-        <input
-          type="text"
-          placeholder="Enter your email..."
-          class="input join-item md:w-[220px] bg-[#F2F2F2]" />
-        <button class="bg-[#E89F71] px-5 text-white join-item">
-        <i class="fa-regular fa-paper-plane"></i>
-        </button>
-      </div>
-    </fieldset>
-  </nav>
-  </nav>
-</footer>
-            <!-- footer1 -->
-          </footer>
-                <!-- footer -->
       </section>
      <!-- section -->
-      
+      <!-- footer -->
+<footer class="mt-12 px-4 sm:px-6 lg:px-10 xl:px-20">
+  <div class="border-t border-b border-[#d8d8d8] py-10">
+
+    <div class="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-5 lg:gap-8">
+
+      <!-- brand -->
+      <div class="sm:col-span-2 lg:col-span-1">
+        <a href="#" class="text-[24px] font-bold text-black lg:text-3xl">
+          Funiro.
+        </a>
+
+        <p class="mt-4 text-base font-normal leading-[26px] text-[#7F7F7F] font-Inter">
+          Worldwide furniture store since 2020. We sell over 1000+ branded products on our website
+        </p>
+
+        <ul class="mt-4">
+          <li class="mb-4 flex items-start gap-2 text-base font-normal text-[#7F7F7F] font-Inter">
+            <i class="fa-solid fa-location-dot mt-1"></i>
+            <span>Sawojajar Malang, Indonesia</span>
+          </li>
+
+          <li class="mb-4 flex items-center gap-2 text-base font-normal text-[#7F7F7F] font-Inter">
+            <i class="fa-solid fa-phone"></i>
+            <span>+6289 456 3455</span>
+          </li>
+
+          <li class="text-base font-normal text-[#7F7F7F] font-Inter">
+            www.funiro.com
+          </li>
+        </ul>
+      </div>
+
+      <!-- menu -->
+      <nav>
+        <h6 class="mb-4 text-[20px] font-bold text-black font-Inter lg:text-[26px]">
+          Menu
+        </h6>
+
+        <div class="flex flex-col gap-3">
+          <a class="cursor-pointer text-base font-normal text-[#7F7F7F] font-Inter">Products</a>
+          <a class="cursor-pointer text-base font-normal text-[#7F7F7F] font-Inter">Rooms</a>
+          <a class="cursor-pointer text-base font-normal text-[#7F7F7F] font-Inter">Inspirations</a>
+          <a class="cursor-pointer text-base font-normal text-[#7F7F7F] font-Inter">About Us</a>
+          <a class="cursor-pointer text-base font-normal text-[#7F7F7F] font-Inter">Terms & Policy</a>
+        </div>
+      </nav>
+
+      <!-- account -->
+      <nav>
+        <h6 class="mb-4 text-[20px] font-bold text-black font-Inter lg:text-[26px]">
+          Account
+        </h6>
+
+        <div class="flex flex-col gap-3">
+          <a class="cursor-pointer text-base font-normal text-[#7F7F7F] font-Inter">My Account</a>
+          <a class="cursor-pointer text-base font-normal text-[#7F7F7F] font-Inter">Checkout</a>
+          <a class="cursor-pointer text-base font-normal text-[#7F7F7F] font-Inter">My Cart</a>
+          <a class="cursor-pointer text-base font-normal text-[#7F7F7F] font-Inter">My catalog</a>
+        </div>
+      </nav>
+
+      <!-- social -->
+      <nav>
+        <h6 class="mb-4 text-[20px] font-bold text-black font-Inter lg:text-[26px]">
+          Stay Connected
+        </h6>
+
+        <div class="flex flex-col gap-3">
+          <a class="cursor-pointer text-base font-normal text-[#7F7F7F] font-Inter">Facebook</a>
+          <a class="cursor-pointer text-base font-normal text-[#7F7F7F] font-Inter">Instagram</a>
+          <a class="cursor-pointer text-base font-normal text-[#7F7F7F] font-Inter">Twitter</a>
+        </div>
+      </nav>
+
+      <!-- newsletter -->
+      <nav class="sm:col-span-2 lg:col-span-1">
+        <h6 class="mb-4 text-[20px] font-bold text-black font-Inter lg:text-[26px]">
+          Stay Updated
+        </h6>
+
+        <form class="flex w-full max-w-[320px]">
+          <input
+            type="email"
+            placeholder="Enter your email..."
+            class="h-[45px] min-w-0 flex-1 bg-[#F2F2F2] px-4 text-sm outline-none"
+          />
+
+          <button
+            type="submit"
+            class="flex h-[45px] w-[50px] items-center justify-center bg-[#E89F71] text-white"
+          >
+            <i class="fa-regular fa-paper-plane"></i>
+          </button>
+        </form>
+      </nav>
+
+    </div>
+
+  </div>
+</footer>
+<!-- footer -->
 </body>
 </html>
