@@ -27,30 +27,35 @@
 <body>
     <!-- header -->
      <header class="mb-20">
-     <!-- Navbar -->
+      <!-- Navbar -->
 <nav class="bg-[#f9f1e7]">
   <div class="px-4 sm:px-8 lg:px-12">
+
+    <!-- checkbox must be here -->
+    <input id="menu-toggle" type="checkbox" class="peer hidden" />
 
     <div class="flex min-h-20 items-center justify-between gap-4">
 
       <!-- left -->
       <div class="flex items-center gap-6 lg:gap-14">
-        <a href="#" class="text-2xl lg:text-3xl font-bold text-black">
+        <a href="index.html" class="text-2xl font-bold text-black lg:text-3xl">
           Funiro.
         </a>
 
         <!-- desktop menu -->
-        <ul class="hidden lg:flex items-center gap-8">
+        <ul class="hidden items-center gap-8 lg:flex">
           <li>
             <a class="cursor-pointer text-[14px] font-bold font-inter text-[#3A3A3A]">
-              Products 
+              Products
             </a>
           </li>
+
           <li>
             <a class="cursor-pointer text-[14px] font-bold font-inter text-[#3A3A3A]">
-              Rooms 
+              Rooms
             </a>
           </li>
+
           <li>
             <a class="cursor-pointer text-[14px] font-bold font-inter text-[#3A3A3A]">
               Inspirations
@@ -60,7 +65,7 @@
       </div>
 
       <!-- desktop search -->
-      <div class="hidden lg:flex flex-1 justify-center px-8">
+      <div class="hidden flex-1 justify-center px-8 lg:flex">
         <div class="relative w-full max-w-[460px]">
           <i class="fa-solid fa-magnifying-glass absolute left-4 top-1/2 -translate-y-1/2 text-[13px] text-black"></i>
 
@@ -74,26 +79,23 @@
 
       <!-- right -->
       <div class="flex items-center gap-4 sm:gap-7">
-        <i class="hidden sm:block fa-regular fa-heart text-[20px] cursor-pointer"></i>
-        <i class="hidden sm:block fa-solid fa-cart-shopping text-[20px] cursor-pointer"></i>
+        <i class="hidden cursor-pointer text-[20px] sm:block fa-regular fa-heart"></i>
+        <i class="hidden cursor-pointer text-[20px] sm:block fa-solid fa-cart-shopping"></i>
 
         <img
           src="img/Ellipse 2.png"
-          class="h-10 w-10 lg:h-11 lg:w-11 rounded-full object-cover cursor-pointer"
+          class="h-10 w-10 rounded-full object-cover cursor-pointer lg:h-11 lg:w-11"
           alt="Profile"
         />
 
-        <!-- mobile checkbox -->
-        <input id="menu-toggle" type="checkbox" class="peer hidden" />
-
-        <!-- 3 bar icon -->
+        <!-- 3 bar icon, md screen eo show hobe -->
         <label for="menu-toggle" class="cursor-pointer text-[24px] lg:hidden">
           <i class="fa-solid fa-bars"></i>
         </label>
       </div>
     </div>
 
-    <!-- mobile menu, no JS -->
+    <!-- mobile/tablet menu no JS -->
     <div class="hidden pb-5 peer-checked:block lg:hidden">
       <div class="relative mb-4 w-full">
         <i class="fa-solid fa-magnifying-glass absolute left-4 top-1/2 -translate-y-1/2 text-[13px] text-black"></i>
@@ -105,22 +107,24 @@
         />
       </div>
 
-      <ul class="grid gap-3 rounded bg-white p-4 shadow">
-         <li>
-            <a class="cursor-pointer text-[14px] font-bold font-inter text-[#3A3A3A]">
-              Products 
-            </a>
-          </li>
-          <li>
-            <a class="cursor-pointer text-[14px] font-bold font-inter text-[#3A3A3A]">
-              Rooms 
-            </a>
-          </li>
-          <li>
-            <a class="cursor-pointer text-[14px] font-bold font-inter text-[#3A3A3A]">
-              Inspirations
-            </a>
-          </li>
+      <ul class="grid gap-4 rounded bg-white p-5 shadow">
+        <li>
+          <a class="block cursor-pointer text-[14px] font-bold font-inter text-[#3A3A3A]">
+            Products
+          </a>
+        </li>
+
+        <li>
+          <a class="block cursor-pointer text-[14px] font-bold font-inter text-[#3A3A3A]">
+            Rooms
+          </a>
+        </li>
+
+        <li>
+          <a class="block cursor-pointer text-[14px] font-bold font-inter text-[#3A3A3A]">
+            Inspirations
+          </a>
+        </li>
 
         <li class="flex gap-5 pt-2 sm:hidden">
           <i class="fa-regular fa-heart text-[20px] cursor-pointer"></i>
@@ -131,6 +135,8 @@
 
   </div>
 </nav>
+<!-- Navbar -->
+   <!-- navbar -->
    <!-- hero  -->
  <div class="relative mx-auto h-[520px] max-w-[1040px] overflow-hidden">
 
