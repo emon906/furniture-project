@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="light">
+<html lang="en" data-theme="light" class="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -76,11 +76,17 @@
           />
         </div>
       </div>
-
       <!-- right -->
       <div class="flex items-center gap-4 sm:gap-7">
         <i class="hidden cursor-pointer text-[20px] sm:block fa-regular fa-heart"></i>
         <i class="hidden cursor-pointer text-[20px] sm:block fa-solid fa-cart-shopping"></i>
+         <!-- theme controller -->
+<label class="swap swap-rotate cursor-pointer text-[22px]">
+  <input type="checkbox" class="theme-controller" value="dark" />
+
+  <i class="fa-solid fa-sun swap-off text-[#E89F71]"></i>
+  <i class="fa-solid fa-moon swap-on text-[#3A3A3A]"></i>
+</label>
 
         <img
           src="img/Ellipse 2.png"
@@ -136,7 +142,6 @@
   </div>
 </nav>
 <!-- Navbar -->
-   <!-- navbar -->
    <!-- hero  -->
  <div class="relative mx-auto h-[520px] max-w-[1040px] overflow-hidden">
 
