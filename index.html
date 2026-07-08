@@ -4,7 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Furniture</title>
+    <!-- data aos -->
+          <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+          <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- data aos -->
     <!-- tailwind and daysi ui -->
+
        <script src="https://cdn.tailwindcss.com"></script>
        <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css" rel="stylesheet" type="text/css" />
 <script src="https://cdn.tailwindcss.com"></script>
@@ -212,7 +217,7 @@
     </div>
 
     <!-- text card fixed -->
-    <div class="absolute md:left-[73px] left-[-40px]  top-[7px] z-30 h-[414px] w-[386px] bg-white/95 px-[46px] pt-[52px] shadow-[0_18px_45px_rgba(0,0,0,0.08)]">
+    <div class="absolute md:left-[73px] left-[-40px]  top-[7px] z-30 h-[414px] w-[386px] bg-white/95 px-[46px] pt-[52px] shadow-[0_18px_45px_rgba(0,0,0,0.08)]"  data-aos="zoom-in-down"data-aos-duration="3000">
       <h1 class="lg:text-[42px] md:text-[36px] text-[24px] font-bold leading-[1.22] text-[#3a3a3a]">
         High-Quality Furniture Just For You
       </h1>
@@ -297,7 +302,7 @@
           </div>
          <!-- Our product -->
           <!-- flex -->
-           <div class="flex justify-center">
+           <div class="flex justify-center" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="3000">
             <!-- grid -->
              <div class="grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-7">
    <!-- card -->
@@ -1039,7 +1044,7 @@ more fun with good setup
       </section>
      <!-- section -->
       <!-- footer -->
-<footer class="mt-12 px-4 sm:px-6 lg:px-10 xl:px-20">
+<footer class="mt-12 px-4 sm:px-6 lg:px-10 xl:px-20" >
   <div class="border-t border-b border-[#d8d8d8] py-10">
 
     <div class="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-5 lg:gap-8">
@@ -1140,5 +1145,8 @@ more fun with good setup
   </div>
 </footer>
 <!-- footer -->
+ <script>
+  AOS.init();
+</script>
 </body>
 </html>
